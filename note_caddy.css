@@ -22,13 +22,15 @@ div {
     margin: 15px;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(220, 230, 237)
+    background-image: url("https://t4.ftcdn.net/jpg/01/81/25/85/240_F_181258532_7ocfh0hZDLZL1RrIpNvNksIwux67TDOQ.jpg");
+
+    /* background-color: #379683 */
 }
 
 img {
     width: 400px;
     height: 200px;
-    margin-bottom: 10px
+    margin-bottom: 20px
 }
 
 p {
@@ -37,15 +39,16 @@ p {
     margin-bottom: 2px
 }
 
-.addCourseButton {
+button {
     position: relative;
-    padding: 0px 40px;
+    padding: 0px 20px;
     margin-top: 20px;
     float: left;
-	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
-    background-color: (#8EE4AF);
+	border-radius: 5px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 25px;
+    color: #05386B;
+    background-color: #EDF5E1;
 }
 
 
