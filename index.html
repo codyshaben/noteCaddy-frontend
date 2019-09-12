@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="note_caddy.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Saira+Extra+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+          <nav>
+             <a id="logo" href="#">noteCaddy</a>
+             <button id="nav_button" href="all_courses.html">GOLF COURSES</button>
+             <button id="nav_button" href="#">LOGIN</button>
+             <button id="nav_button" href="#">SIGN UP</button>
+          </nav>
+        </header>
+        <div class="container" id="login_card">
+            <form id="login_form" method:"post" name="loginForm">
+                <label>Username</label>
+                <input id="username" type="text" name="username" placeholder="Create Username"/>
+                <label>Password</label>                
+                <input id="password" type="password" name="password" placeholder="Create Password"/>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+        </div>
+
+        <!--[if lt IE 7]>
+        <![endif]-->
+        <script src="index.js" ></script>
+    </body>
+</html>
