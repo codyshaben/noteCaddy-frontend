@@ -1,20 +1,44 @@
 body {
     align-content: center;
-    background-color: #5CDB95;
+    background-color: #8EE4AF;
     color: #05386B;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 nav {
     width: 100%;
-    height: 40px;
+    height: 60px;
     padding-top: 20px;
-    padding-left: 20px;
-    background-color: #379683;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 40px;
     border-radius: 5px;
-} 
+    background-color: #379683
+}
+
+nav a { 
+    text-decoration: none;
+    background-color: #05386B;
+    border-radius: px;
+    margin-left: 2px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    display: block;
+    float: left;
+    color: #EDF5E1
+    /* border: 1px solid #05386B; */
+}
+
+nav a:hover {
+    color: rgb(79, 241, 152)
+}
 
 div {
+    color: #EDF5E1;
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -22,20 +46,28 @@ div {
     margin: 15px;
     padding: 20px;
     border-radius: 5px;
-    background-image: url("https://t4.ftcdn.net/jpg/01/81/25/85/240_F_181258532_7ocfh0hZDLZL1RrIpNvNksIwux67TDOQ.jpg");
-
-    /* background-color: #379683 */
+    background-image: url("https://st.depositphotos.com/2071605/3534/i/450/depositphotos_35345585-stock-photo-aged-dark-wood-texture.jpg");
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+div:hover {
+    box-shadow: 14px 14px 14px 14px rgba(0.25,0.25,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
 
 img {
     width: 400px;
     height: 200px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    box-shadow: 
+
 }
 
 p {
-    font-size: 20px;
-    margin: 0px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 0px;
     margin-bottom: 2px
 }
 
@@ -53,6 +85,10 @@ button {
 
 form {
     margin-top: 15px
+}
+
+h1 {
+    margin-left: 15px;
 }
 
 
