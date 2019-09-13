@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const playerURL = `http://localhost:3000/api/v1/players/`
     const deleteCourseURL = `http://localhost:3000/api/v1/removeCourse/`
-    const viewCourseURL = 
 
     fetch(playerURL)
     .then(response => response.json())
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             removeCourseButton.innerText = "Remove Course"
             // seeCourseButton.setAttribute("id", "seeCourseButton")
             seeCourseButton.innerText = "See Course"
-            seeCourseButton.addEventListener
+            seeCourseButton.setAttribute("onclick", "location.href = 'course.html'")
             image.src = course.image
             courseCard.prepend(image)
             courseCard.append(courseName, courseLocation, removeCourseButton, seeCourseButton)
