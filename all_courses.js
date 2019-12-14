@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const courseURL = 'http://localhost:3000/api/v1/courses'
-    const playerURL = 'http://localhost:3000/api/v1/players'
-    const addCourseURL = 'http://localhost:3000/api/v1/addCourse'
+    const courseURL = 'https://polar-temple-23743.herokuapp.com/api/v1/courses'
+    const playerURL = 'https://polar-temple-23743.herokuapp.com/api/v1/players'
+    const addCourseURL = 'https://polar-temple-23743.herokuapp.com/api/v1/addCourse'
 
 
     fetch(courseURL)

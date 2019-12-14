@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const holeId = ``
-    const holesURL = 'http://localhost:3000/api/v1/holes/'
-    const notesURL = 'http://localhost:3000/api/v1/notes/'
-    const addNoteURL = `http://localhost:3000/api/v1/addNote/`
+    const holesURL = 'https://polar-temple-23743.herokuapp.com/api/v1/holes/'
+    const notesURL = 'https://polar-temple-23743.herokuapp.com/api/v1/notes/'
+    const addNoteURL = `https://polar-temple-23743.herokuapp.com/api/v1/addNote/`
 
 
     fetch(holesURL)
@@ -54,11 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
             submitInput.setAttribute("id", "submitInput")
             submitInput.addEventListener('click', event => {
                 event.preventDefault()
-                const noteList = document.createElement("ol")
+                // const noteList = document.createElement("ol")
                 const li = document.createElement("li")
                 li.innerText = formInput.value
                 console.log(formInput.value)
-                noteList.appendChild(li)
+                holeCard.appendChild(li)
                 fetch(addNoteURL, {
                      method: 'POST',
                      headers: {

@@ -56,3 +56,4 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 
+//little bug where if a user doesn't have an animal to start with, when you click add animal the page doesn't show the card until you add a second animal

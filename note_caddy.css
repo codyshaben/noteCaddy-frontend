@@ -88,16 +88,23 @@ form {
 }
 
 h1 {
+    margin-top: 100px;
     margin-left: 15px;
+    border-left: 20px solid #05386B;
+    background-color: #EDF5E1;
+    font-size: 50px
 }
 
 li {
+    display: inline-block;
     font-size: 30px;
     margin-top: 5px;
     margin-left: 0px;
     margin-bottom: 2px
-
 }
 
+.login_card {
+    display: center;
+}
 
 
